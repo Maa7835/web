@@ -1,0 +1,115 @@
+/**{
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 75%;
+    height: auto;
+    background-color: darkslategrey;
+    padding: 10% 20%;
+    margin-left: 12.5%;
+}
+h6{
+    text-align: center;
+}
+.lg{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+.lg_oth_acc{
+    width: 100%;
+    display: inline-flex;
+    padding: 0 0.75rem;
+}
+button{
+    width: 33.33333%;
+    height: 2rem;
+    background-color: blue;
+    opacity: 0.1;
+    color: white;
+}
+input {
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: whitesmoke;
+    border: 0.03rem solid black;
+    text-decoration: none;
+}
+
+button :right{
+    right: 0.4rem;
+}
+i{
+    color: white;
+}
+i:hover{
+    transition: right 0.75s ease 0.15s;
+}
+*/
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+.main{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+.lg{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.main h6{
+    text-align: center;
+    font-weight: 300;
+}
+.lg_oth_acc{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.lg_oth_acc a {
+    width: 33.333333%;
+}
+.lg_oth_acc a button{
+    width: 100%;
+    background-color: white;
+    border: 0.01rem solid black;
+}
+.lg_oth_acc a button #usn{
+    color: lightgreen;
+}
+#usn{
+
+}
+#psd{
+
+}
+#psd_r{
+
+}
